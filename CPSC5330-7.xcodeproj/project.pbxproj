@@ -16,6 +16,8 @@
 		F852BDB52C3C3F440032C81B /* CPSC5330_7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F852BDB42C3C3F440032C81B /* CPSC5330_7Tests.swift */; };
 		F852BDBF2C3C3F440032C81B /* CPSC5330_7UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F852BDBE2C3C3F440032C81B /* CPSC5330_7UITests.swift */; };
 		F852BDC12C3C3F440032C81B /* CPSC5330_7UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F852BDC02C3C3F440032C81B /* CPSC5330_7UITestsLaunchTests.swift */; };
+		F852BDCE2C3C3FE40032C81B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F852BDCD2C3C3FE40032C81B /* SecondViewController.swift */; };
+		F852BDD02C3C3FF90032C81B /* BookAuthor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F852BDCF2C3C3FF90032C81B /* BookAuthor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		F852BDBA2C3C3F440032C81B /* CPSC5330-7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CPSC5330-7UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F852BDBE2C3C3F440032C81B /* CPSC5330_7UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPSC5330_7UITests.swift; sourceTree = "<group>"; };
 		F852BDC02C3C3F440032C81B /* CPSC5330_7UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPSC5330_7UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F852BDCD2C3C3FE40032C81B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F852BDCF2C3C3FF90032C81B /* BookAuthor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookAuthor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				F852BD9D2C3C3F420032C81B /* AppDelegate.swift */,
 				F852BD9F2C3C3F420032C81B /* SceneDelegate.swift */,
 				F852BDA12C3C3F420032C81B /* ViewController.swift */,
+				F852BDCD2C3C3FE40032C81B /* SecondViewController.swift */,
+				F852BDCF2C3C3FF90032C81B /* BookAuthor.swift */,
 				F852BDA32C3C3F420032C81B /* Main.storyboard */,
 				F852BDA62C3C3F440032C81B /* Assets.xcassets */,
 				F852BDA82C3C3F440032C81B /* LaunchScreen.storyboard */,
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F852BDCE2C3C3FE40032C81B /* SecondViewController.swift in Sources */,
 				F852BDA22C3C3F420032C81B /* ViewController.swift in Sources */,
 				F852BD9E2C3C3F420032C81B /* AppDelegate.swift in Sources */,
 				F852BDA02C3C3F420032C81B /* SceneDelegate.swift in Sources */,
+				F852BDD02C3C3FF90032C81B /* BookAuthor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
