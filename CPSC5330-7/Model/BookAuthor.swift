@@ -10,9 +10,13 @@ import Foundation
 struct BookAuthor {
     var book: String
     var author: String
+    var review: String
     
-    init(_ book: String, _ author: String) {
+    init(_ book: String, _ author: String, _ review: String) {
         self.book = book
         self.author = author
+        self.review = review
     }
+    
+    
 }
